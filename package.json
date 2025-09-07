@@ -8,7 +8,6 @@
     "clean:all": "pnpm clean && rm -rf node_modules",
     "up:latest": "pnpm up -iL",
     "test": "devcontainer features test -i node",
-    "publish": "devcontainer features publish -n jmcejudo/devcontainer-features",
     "publish:all": "devcontainer features publish -n jmcejudo/devcontainer-features src",
     "prepare": "husky"
   },
