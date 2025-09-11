@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 set -e
 
-npm install -g @google/gemini-cli
+su - $_CONTAINER_USER -c "npm install -g @google/gemini-cli"

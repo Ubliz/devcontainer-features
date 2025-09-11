@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 set -e
 
-npm install -g @anthropic-ai/claude-code
+su - $_CONTAINER_USER -c "npm install -g @anthropic-ai/claude-code"

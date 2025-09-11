@@ -1,5 +1,8 @@
 {
   "name": "Claude Code Feature",
   "id": "claude-code",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/node:1"
+  ]
 }

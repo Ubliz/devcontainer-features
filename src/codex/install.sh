@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 set -e
 
-npm i -g @openai/codex
+su - $_CONTAINER_USER -c "npm i -g @openai/codex"
