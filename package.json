@@ -1,5 +1,5 @@
 {
-  "name": "@jmcejudo/devcontainer-features",
+  "name": "@ubliz/devcontainer-features",
   "version": "0.0.1",
   "type": "module",
   "packageManager": "pnpm@10.11.0",
@@ -8,7 +8,7 @@
     "clean:all": "pnpm clean && rm -rf node_modules",
     "up:latest": "pnpm up -iL",
     "test": "devcontainer features test -i node",
-    "publish:all": "devcontainer features publish -n jmcejudo/devcontainer-features src",
+    "publish:all": "devcontainer features publish -n ubliz/devcontainer-features src",
     "prepare": "husky"
   },
   "devDependencies": {
